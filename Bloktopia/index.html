@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- my css -->
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap  -->
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font  -->
+    <!-- icon  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- icon  -->
+    <!-- favicon  -->
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.ico!">
+    <!-- favicon  -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./Assets/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon bg-white text-black"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto text-capitalize">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Install</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Roadmap
+                </a>
+                <ul
+                  class="dropdown-menu text-uppercase border-1 border-white"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Overview</a></li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li><a class="dropdown-item" href="#">Released</a></li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Final texting</a>
+                  </li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">development</a>
+                  </li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">to come</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  earn
+                </a>
+                <ul
+                  class="dropdown-menu text-uppercase border-1 border-white"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">job</a></li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li><a class="dropdown-item" href="#">staking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  play
+                </a>
+                <ul
+                  class="dropdown-menu text-uppercase border-1 border-white"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">m3tapass</a></li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li><a class="dropdown-item" href="#">m3taspaces</a></li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">bloktopia</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item text-uppercase">
+                <a class="nav-link" href="#">$blok</a>
+              </li>
+              <li class="nav-item text-uppercase">
+                <a class="nav-link" href="#">dao</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NFT's</a>
+              </li>
+              <li class="nav-item text-uppercase">
+                <a class="nav-link" href="#">faq</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  social
+                </a>
+                <ul
+                  class="dropdown-menu border-1 border-white"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="bx bxl-youtube"></i
+                    ></a>
+                  </li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="bx bxl-twitter"></i
+                    ></a>
+                  </li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="bx bxl-facebook"></i
+                    ></a>
+                  </li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="bx bxl-discord"></i
+                    ></a>
+                  </li>
+                  <li><hr class="dropdown-divider text-white" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="bx bxl-telegram"></i
+                    ></a>
+                  </li>
+                  <li><hr class="dropdown-divider text-white w-100" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"
+                      ><i class="bx bxl-instagram"></i
+                    ></a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button class="btn nav-btn" type="submit">Connect wallet</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main  -->
+
+    <!-- content 1 -->
+
+    <section class="main-content-1 container ">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="main-content-image">
+            <img src="./Assets/first.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+          <div class="main-content-text">
+            <div>
+              <h1>
+                ROADMAP <br />
+                <span> 2024</span>
+              </h1>
+              <p>
+                Explore released features, upcoming products, testing progress,
+                and share your thoughts on future developments!
+              </p>
+            </div>
+
+            <div class="main-btn">
+              <button>Find out more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content 1 -->
+
+    <!-- content 2 -->
+    <br />
+    <br />
+
+    <br />
+    <section class="container">
+      <div
+        class="main-content-2 d-flex justify-content-between align-items-center overflow-hidden"
+      >
+        <img
+          src="./Assets/vr_headset_man.png"
+          class="vr-headset"
+          style="max-width: 485px"
+        />
+        <div
+          class="flex-column align-content-center justify-content-center text-center main-content-text_2"
+        >
+          <div class="main-content-text-1">
+            <h2>WHAT IS BLOKTOPIA?</h2>
+          </div>
+          <p class="main-content-text-2">
+            Bloktopia is the one-stop shop for everything Cryptocurrency and
+            NFTs. Learn the basics or study advanced topics, earn money, play
+            games, make connections, and much more in an immersive virtual
+            environment!
+          </p>
+        </div>
+        <img
+          src="./Assets/laptop_metaspaces.png"
+          class="main-content-2-lap"
+          style="max-width: 600px"
+        />
+      </div>
+    </section>
+    <!-- content 2  -->
+
+    <!-- video content  -->
+    <img src="./Assets/Screenshot (10).png" class="video-image" />
+    <!-- video content  -->
+
+    <!-- content 4  -->
+    <section class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4">
+          <!-- left box -->
+          <div
+            class="left-grid d-flex flex-column text-center justify-content-between"
+          >
+            <div
+              class="grid-text d-flex flex-column text-center justify-content-center text-white mt-5"
+            >
+              <h2 class="text-capitalize">
+                <span
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="money-bill-trend-up"
+                    class="svg-inline--fa fa-money-bill-trend-up"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M470.7 9.4c3 3.1 5.3 6.6 6.9 10.3s2.4 7.8 2.4 12.2l0 .1v0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32V109.3L310.6 214.6c-11.8 11.8-30.8 12.6-43.5 1.7L176 138.1 84.8 216.3c-13.4 11.5-33.6 9.9-45.1-3.5s-9.9-33.6 3.5-45.1l112-96c12-10.3 29.7-10.3 41.7 0l89.5 76.7L370.7 64H352c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0c8.8 0 16.8 3.6 22.6 9.3l.1 .1zM0 304c0-26.5 21.5-48 48-48H464c26.5 0 48 21.5 48 48V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V304zM48 416v48H96c0-26.5-21.5-48-48-48zM96 304H48v48c26.5 0 48-21.5 48-48zM464 416c-26.5 0-48 21.5-48 48h48V416zM416 304c0 26.5 21.5 48 48 48V304H416zm-96 80a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+                    ></path></svg></span>
+                earn
+              </h2>
+              <p>
+                join a jobe or stake your $blok to generate a passive income
+              </p>
+            </div>
+            <div class="grid-btn">
+              <button>Earn Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- left box -->
+
+        <!-- right box  -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4">
+          <div
+            class="right-grid d-flex flex-column text-center justify-content-between"
+          >
+            <div
+              class="grid-text d-flex flex-column text-center justify-content-center text-white mt-5"
+            >
+              <h2>
+                <span
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="gamepad"
+                    class="svg-inline--fa fa-gamepad"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"
+                    ></path></svg></span>
+                Play
+              </h2>
+              <p>
+                create your own unique identity and enter the home of crypto
+              </p>
+            </div>
+            <div class="grid-btn text-center">
+              <button>Play Now</button>
+            </div>
+            <!-- right box  -->
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4">
+          <!-- left box -->
+          <div
+            class="left-grid d-flex flex-column text-center justify-content-between"
+          >
+            <div
+              class="grid-text d-flex flex-column text-center justify-content-center text-white mt-5"
+            >
+              <h2 class="text-capitalize">
+                <span
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="money-bill-trend-up"
+                    class="svg-inline--fa fa-money-bill-trend-up"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M470.7 9.4c3 3.1 5.3 6.6 6.9 10.3s2.4 7.8 2.4 12.2l0 .1v0 96c0 17.7-14.3 32-32 32s-32-14.3-32-32V109.3L310.6 214.6c-11.8 11.8-30.8 12.6-43.5 1.7L176 138.1 84.8 216.3c-13.4 11.5-33.6 9.9-45.1-3.5s-9.9-33.6 3.5-45.1l112-96c12-10.3 29.7-10.3 41.7 0l89.5 76.7L370.7 64H352c-17.7 0-32-14.3-32-32s14.3-32 32-32h96 0c8.8 0 16.8 3.6 22.6 9.3l.1 .1zM0 304c0-26.5 21.5-48 48-48H464c26.5 0 48 21.5 48 48V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V304zM48 416v48H96c0-26.5-21.5-48-48-48zM96 304H48v48c26.5 0 48-21.5 48-48zM464 416c-26.5 0-48 21.5-48 48h48V416zM416 304c0 26.5 21.5 48 48 48V304H416zm-96 80a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z"
+                    ></path></svg></span>
+                earn
+              </h2>
+              <p>
+                join a jobe or stake your $blok to generate a passive income
+              </p>
+            </div>
+            <div class="grid-btn">
+              <button>Earn Now</button>
+            </div>
+          </div>
+        </div>
+        <!-- left box -->
+
+        <!-- right box  -->
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 mt-4">
+          <div
+            class="right-grid d-flex flex-column text-center justify-content-between"
+          >
+            <div
+              class="grid-text d-flex flex-column text-center justify-content-center text-white mt-5"
+            >
+              <h2>
+                <span
+                  ><svg
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fas"
+                    data-icon="gamepad"
+                    class="svg-inline--fa fa-gamepad"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z"
+                    ></path></svg></span>
+                Play
+              </h2>
+              <p>
+                create your own unique identity and enter the home of crypto
+              </p>
+            </div>
+            <div class="grid-btn text-center">
+              <button>Play Now</button>
+            </div>
+            <!-- right box  -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- content 4  -->
+
+    <!-- main end -->
+
+    <!-- footer   -->
+    <section class="container-fluid footer">
+      <div class="d-flex justify-content-center align-items-center flex-column align-content-center text-center">
+        <div class="footer-links">
+          <ul class="footer-link d-flex text-decoration-none">
+            <li>
+              <a href="#"><i class="bx bxl-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-discord-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-telegram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-capitalize text-white"><span>©</span> bloktopia all right reserved 2024 </p>
+        </div>
+        <div class="footer-center-links d-flex justify-content-between">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms and conditions</a>
+          <a href="#">Data deletation</a>
+        </div>
+        <div class="disclaimer text-white text-center">
+          <p>Disclaimer. No Investment Advice. The information provided on this website does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of the website's content as such. Bloktopia does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions.</p>
+        </div>
+        <div class=" small justify-content-center flex-column align-content-center text-white text-center">
+          <small>You can view any revisions or modifications to the SAFT Agreement by downloading the latest version here.</small> <br>
+          <small>The SAFT Agreement is password protected, please request the password via email to <a href="#" class="text-decoration-none text-white">hello@bloktopia.com</a></small> <br>
+          <p class="mt-3">This site is owned an operated by Lumocolor Limited BVI</p>
+        </div>
+      </div>
+    </section>
+    <!-- footer  -->
+
+    <!-- js script  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js script  -->
+  </body>
+</html>
