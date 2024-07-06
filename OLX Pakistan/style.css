@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  gap: 20px;
+  background: #f7f8f8;
+}
+.header_top_items img {
+  width: 50px;
+}
+.header_top_items a {
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+.container-fluid a svg {
+  width: 60px;
+  height: 60px;
+}
+.header_center {
+  height: 70px;
+}
+
+.dropdown {
+  width: 280px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.dropdown i {
+  font-size: 20px;
+}
+.dropdown-item-text {
+  font-size: 18px;
+  display: flex;
+  gap: 20px;
+  color: grey;
+  align-items: center;
+  font-weight: 400;
+}
+.dropdown ::after {
+  position: relative;
+  left: 110px;
+}
+.search {
+  min-width: 700px;
+  height: 50px;
+  border: 2px solid #002f34;
+  border-radius: 5px;
+}
+.search input {
+  border: none;
+}
+.search-btn {
+  background: #002f34;
+  border-radius: 0px;
+  border: none;
+}
+.login {
+  font-size: 16px;
+  font-weight: 700;
+}
+.s-btn {
+  width: 120px;
+  height: 50px;
+  font-weight: 700;
+  background: url(./images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg)
+    no-repeat;
+  background-position: center;
+}
+
+.navbar-link a {
+  font-size: 14px;
+  color: #020202;
+}
+
+.extra {
+  font-weight: 700;
+}
+.all-extra {
+  padding-left: 10px;
+  font-size: 14px;
+}
+
+.all-heading {
+  width: 180px;
+  height: 38px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.categories {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+}
+
+.categories_items {
+  text-align: center;
+  width: 107px;
+  height: 158px;
+  font-weight: 700;
+}
+.categories_items img {
+  width: 88px;
+  height: 88px;
+}
+
+.buy-heading {
+  width: 100%;
+  margin: 0;
+}
+
+.buy-heading span {
+  width: 180px;
+  height: 38px;
+  font-size: 24px;
+  font-weight: 900;
+}
+.buy-heading a {
+  margin-left: auto;
+}
+.buy-heading {
+  color: rgb(0, 47, 52);
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 16px;
+}
+.buy-heading a {
+  text-decoration: none;
+}
+
+.card-img-top {
+  height: 150px;
+  position: relative;
+}
+
+/* footer start  */
+
+/* footer top */
+
+.footer-top {
+  background-color: none;
+  width: 100%;
+  height: 210px;
+}
+
+.footer-top-link-2 {
+  max-width: 450px;
+  flex-wrap: wrap;
+}
+.footer-top-link-2 :first-child {
+  font-size: 32px;
+  padding-top: 20px;
+  font-weight: 900;
+}
+.footer-top-link-2 p {
+  font-size: 20px;
+  font-weight: normal;
+}
+.footer-top-link-3 {
+  border-left: 2px solid lightgrey;
+}
+.footer-top-link-3 p {
+  flex-wrap: nowrap;
+  font-weight: 900;
+  line-height: 0px;
+}
+.footer-top-link-3 img {
+  padding-top: 30px;
+  width: 120px;
+}
+/* footer start end  */
+
+/* footer center  */
+
+.footer-center {
+  height: 190px;
+  border-top: 1px solid lightgrey;
+  padding: 16px 0 64px 0;
+  gap: 10px;
+  background: #ebeeef;
+}
+.footer-center-links {
+  width: 253px;
+  height: 113px;
+}
+.footer-center-links a {
+  text-decoration: none;
+  font-size: 12px;
+  color: rgb(111, 110, 110);
+}
+.footer-center-links a:hover {
+  color: black;
+}
+.footer-center-links img {
+  width: 80px;
+}
+.footer-images {
+  width: 300px;
+}
+.footer-center-links-img {
+  padding-top: 10px;
+  display: block;
+  line-height: 2px;
+}
+.footer-center p {
+  font-size: 15px;
+  font-weight: 900;
+}
+.footer-center-links-img img {
+  width: 24px;
+}
+.footer-center-links-img a {
+  margin-bottom: 20px;
+}
+
+/* footer end  */
+
+.footer-end {
+  width: 100%;
+  height: 51px;
+  padding: 18px;
+  display: flex;
+  background: #002f34;
+  justify-content: end;
+  color: white;
+}
+.footer-end p {
+  font-size: 12px;
+  font-weight: 900;
+  padding-right: 10px;
+}
+.footer-end span {
+  font-size: 12px;
+}
+
+.locatin-list a {
+  color: lightgrey;
+}
+.locatin-list a:hover {
+  color: #020202;
+}
+
+/* link css start  */
+
+/* left content  */
+
+.left-content {
+  border: 2px solid black;
+}
+
+.right-content {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.car-picture img {
+  height: 480px;
+}
+
+/* right content start */
+
+.profile {
+  height: 75px;
+  border: 1px solid lightgrey;
+}
+.profile-picture img {
+  width: 68px;
+}
+
+.user-detail {
+  line-height: 10px;
+}
+
+
+.name {
+  font-weight: 700;
+  font-size: 14px;
+}
+.member {
+  font-size: 14px;
+}
+.profile-link a{
+  text-decoration: none;
+  color: black;
+  font-size:14px ;
+  font-weight: 700;
+}
+.profile-link a i {
+  font-size: 20px;
+}
