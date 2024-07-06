@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Saylani Welfare Trust.Pk</title>
+</head>
+<body>
+    <div class="container">
+        <div class="contact">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUlJREFUSEvd1T8ohWEUx/GPJIPBZJBSMmCwW2xGpbBSNmVSBhbJRCmTsilWfxaZbBYzA5OQMpgMBsmfe/S8um73ute93eWe5an3vM/5nt/vvM/zNqlzNNW5vsYCjGEN/
+            TXadoUFnESdfIse0FVj8Wz7DXoLAZ8pO4DrKkGhPhT81M5XkAFeMI3Df0LGsYu2coCs7gYW8V4G1JxmF77nx3fzxRTMYButOMMEnkpAOnCAYbxiFjvlFAR0EMfoxiNC/nkBZCjZ2Il7jOaauURmdUkFmap27GMEb5jHVoLMYRMtOMVkLv+cchUDMgtXsJw276V1Kq2RW83rOh7/C5C5EipCTaiKiG6j6+i+MKoCRJEeHOXUfKSZ3JYYfNWASo9FAwPu0ndfqRV/vRfziZn9OslxXa+jr0bCRe5ULxW7rmusW3x7Y/0y62LRF2qEQhkl8rgIAAAAAElFTkSuQmCC"/>
+            <a href="#">info@SaylaniWelfare.com</a>
+            <div class="contact2">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYVJREFUSEvF1DFIVXEUx/HP20ShQHTQoS0KQQeRBrfAkogWp7bARSmxsUB0KYqGxmoMl4LaGgRxKsLFIQgcxCXBtUURJAy9/7gX
+            /v15t/fufT08cJf/vef7u+d/zvk1dDkaXeY7F4Eg+hiX8RCHnVSZVnABHzCdQzdxHb/qiqQC3zGawD5hBr/riKQCpyWQt5j9HwJH6C0BLeFZVZG0gu2sByMlkDXc7lTgPe42gexgCvudCszjTQL5hhv4WRUevk+v6BL2EtBVhApqRbNNDmN5J6Kt4EktepMKAmcia+ZWBDzOz8IAxDGEl1jHatkPlHnRK9yPkn7gJnbzs0F8Qbi+EE+zRVxuJlIm0JNZxGdci5LCjjzHx/wZS4CvsYC/lvVfbjqQjeZXXKlw/+9wDydFTiu7vpj/bRjTdiNU8qBdgWKUF3ObKLORWPxFbvd/zlpVECeGxj5CWMa+knI2cCt23ioCBbMfc5jEOIbzF2EZw1AcxOJ1BNrtReUrqgSu0uRa4CLpDBORNRkbOkH4AAAAAElFTkSuQmCC"/>
+            <a href="#">021-111-729-526</a>
+            </div>
+           <button class="btn10">English</button>
+        </div>
+        <div class="navbar">
+            
+               
+
+            <div class="logo">
+                <img src="images/logo_saylaniwelfare.22bf709605809177256c.png" alt="">
+               <div class="list-item">
+                <ol>
+                    <li><a href="#">Home Page</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">Media</a></li>                    
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Bank Details</a></li>
+                </ol>
+               </div>
+                <div class="btn">
+                    <button class="btn1">DONATE <br>NOW</button>
+                    <button class="btn2" >BE A <br>SPONSOR</button>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>   
+    <hr>
+    <div class="para">
+        <div class="para1">
+            <p>Welcome to the <br> <span>Saylani</span> Welfare</p>
+        </div>
+        <div class="para2">
+            <p>The largest NGO offering free <span>daily Meal,</span></p>
+        </div>
+        <div class="para3">
+            <p>Saylani Welfare is on the ground and already working with local communities to assess how best to support underprivileged families in more than 63 areas of day to day lives.</p>
+        </div>
+        <div>
+            
+            <button class="btn-exp">EXPLORE MORE <span> →</span></button>
+        </div>
+            
+    </div>
+    <div class="image1">
+        <img src="images/38.png" alt="">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+css 
+
+
+
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    display: inline-block;
+    width:100%;
+    height: 90px;
+}
+.contact {
+    width: 100%;
+    background-color: #EEEEEE;
+    display: inline-block;
+    font-family: sans-serif;
+    height: 33px;
+    position: absolute;
+}
+.contact img {
+    width: 17px;
+    position: relative;
+    left: 95px;
+    top: 7px;
+}
+.contact2 {
+    position: relative;
+    left: 210px;
+    bottom: 20px;
+}
+.contact a {
+    position: relative;
+    left: 100px;
+    top: 5px;
+    text-decoration: none;
+    color: #363636;
+    font-weight: 600;
+    font-size: small;
+}
+.btn10 {
+    width: 90px;
+    height: 33px;
+    left: 86%;
+    top: 0;
+    
+    background-color: #fff;
+    position: absolute;
+    border: none;
+}
+.navbar {
+    display: inline-block;
+    width: 500px;
+    height: 80px;
+    position: sticky;
+    
+}
+.logo {
+    width: 100%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.logo img {
+    display: inline-block;
+    width: 220px;
+    position: relative;
+    left: 90px;
+    top: 20px;
+
+}
+
+.list-item {
+    width: 650px;
+    position: relative;
+    left: 300px;
+    bottom: 20px;
+}
+.list-item ol li{ 
+    display: inline;
+    margin-left: 10px;
+    align-content: center;
+    font-size: 20px;
+
+}
+.list-item ol li a {
+    font-weight: lighter;
+    text-decoration: none;
+    border: underline;
+    color: #363636;
+    animation: ease forwards;
+
+
+
+}
+li a:hover {
+    transition: underline;
+   
+
+}
+.btn {
+    width: 300px;
+    
+    position: relative;
+    left: 950px;
+    bottom: 72px;
+}
+.btn1 {
+    width: 136px;
+    height: 64px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #0D6DB7;
+    color: white;
+    border-radius: 5px ;
+    border: 2px solid #0D6DB7;
+
+    cursor: pointer;
+    margin-right: 5px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform ;
+}
+.btn1:hover ,.btn1:focus, .btn1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5s);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+
+
+
+.btn2 {
+    width: 133px;
+    height: 64px;
+    text-align: center;
+    font-size: 12px;
+   
+    background-color: #8DC63F;
+    color: white;
+    border-radius: 5px ;
+    border: 2px solid #0D6DB7;
+    cursor: pointer;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: box-shadow, transform ;
+}
+.btn2:hover ,.btn2:focus, .btn2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5s);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+}
+hr{
+    position: static;
+    bottom: 28px;
+    opacity: .5;
+}
+.para {
+    box-sizing: content-box;
+    display: inline-block;
+    width: 49%;
+
+}
+
+.para1 {
+       
+    color: #3f3e3e;
+    font-size: 40px;
+    font-weight: 600;
+}
+.para1 span {
+    color: #8DC63F;
+}
+.para2 {
+    
+    /* position: relative;
+    left: 100px;
+    top: 100px; */
+    color: #3a3939;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+}
+.para2 span {
+    color: #0D6DB7;
+}
+.para3 {
+    display: inline-block;
+    /* position: relative;
+    left: 100px;
+    top: 100px; */
+    margin-top: 25px;
+    word-spacing: 3px;
+    color: #363636;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 28px;
+}
+.btn-exp {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 3px;
+    font-size: 11px;
+    font-weight: 300;
+    background-color: transparent;
+    border-radius: 5px;
+        
+}
+.btn-exp span {
+    margin-left: 5px;
+    font-size: 20px;
+}
+.image1 {
+background-color: #0D6DB7;
+    width: 38%;
+    display: inline-block;
+}
+.image1 img {
+    width: 450px;
+}
